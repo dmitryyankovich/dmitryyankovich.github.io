@@ -25,7 +25,7 @@ body {
     width: 870px;
     height: 1815px;
     background-color:#fff;
-    margin: 0 0 0 375px;
+    margin-left: 375px;
 }
 
 #john_doe{
@@ -236,4 +236,259 @@ height: 63px;
     background-image: url(img/fields_background.png);
     background-repeat: no-repeat;
     height: 376px;
+}
+
+.your_name_mail{
+    margin: 35px 0px 0px 20px;
+    padding:0px 0px 0px 10px;
+    font: 12px Roboto lt;
+    width: 218px;
+    height: 33px;
+    background-color: #ef4b2a;
+    color: #f5745d;
+    border: 1px solid #ff7154;
+}
+
+#your_mail{
+    margin-top: 11px;
+}
+
+#your_message{
+    margin: 10px 0px 0px 20px;
+    padding:5px 0px 0px 10px;
+    font: 12px Roboto lt;
+    width: 219px;
+    resize: none;
+    height: 98px;
+    background-color: #ef4b2a;
+    color: #f5745d;
+    border: 1px solid #ff7154;
+}
+
+#submit_button{
+    margin: 5px 0px 0px 20px;
+    padding: 0px;
+    width: 77px;
+    height: 32px;
+    text-align: center;
+    font: 14px Oswald;
+    background-color: #ef4b2a;
+    color: #fff;
+    border: 1px solid #ff7154;
+}
+
+#banner_content{
+    margin:33px 0px 0px 200px;
+}
+
+#banner_header{
+    font: 22px Oswald;
+    color: #79828c;
+    margin-bottom: 0px;
+}
+
+#banner_desc{
+    font: 14px Roboto lt;
+    color: #ff6647;
+    margin-top: 0px;
+}
+
+.banner_text{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font:13px Roboto lt;
+    color: #8f8f8f;
+    white-space: nowrap;
+}
+
+#banner_text_first{
+    margin-top: 18px;
+}
+
+.button{
+    width: 100px;
+    height: 36px;
+    background-color: #ff6647;
+    font: 14px Oswald;
+    color: #fff;
+    border: none;
+    margin-top: 32px;
+}
+
+#banner_content hr{
+    width: 640px;
+    margin-top: 38px;
+    margin-left: 0px;
+    border-bottom: 0px;
+    border-top: 1px solid #e6e6e6;
+}
+
+#footer{
+    margin-left: 375px;
+    clear: both;
+    background-image: url(img/footer.png);
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 80px;
+    font: 14px Oswald;
+    color: #fff;
+}
+
+#footer p{
+    margin-left: 19px;
+    padding-top: 20px;
+}
+
+#article{
+    margin: 39px 0px 0px 200px;
+    width: 639px;
+    height: 428px;
+}
+
+#photos{
+    width: 370px;
+    float: left;
+}
+
+.girl{
+    width: 170px;
+    height: 199px;
+    float: left;
+    background-image: url(img/girl_bg.png);
+}
+
+.girl p{
+    margin-top: -7px;
+    margin-left: 9px;
+    white-space: nowrap;
+    font: 11px Roboto lt;
+    color: #8f8f8f;
+    position: absolute;
+}
+
+.title_bg{
+    margin-top: -19px;
+    position: absolute;
+}
+
+.title_bg2{
+    margin-top: -19px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+.photo_colors{
+    position: absolute;
+    margin-top: -181px;
+    opacity: 0.5;
+}
+
+#girl_2, #girl_4{
+    float: right;
+}
+
+#girl_3, #girl_4{
+margin-top: 30px;
+}
+
+#girl_3_colors{
+    margin-top: -166px;
+}
+
+#girl_3_title_bg,#girl_3_title_bg2{
+    margin-top: -5px;
+}
+
+#girl_3 p{
+    margin-top: 7px;
+}
+
+#girl_4_colors{
+    margin-top: -192px;
+}
+
+#girl_4_title_bg,#girl_4_title_bg2{
+    margin-top: -30px;
+}
+
+#girl_4 p{
+    margin-top: -18px;
+}
+
+#article_text{
+    width: 269px;
+    height: 428px;
+    float: right;
+}
+
+#article_header{
+    font: 22px Oswald;
+    color: #79828c;
+    margin: -5px 0px 0px 30px;
+}
+
+.article_desc{
+    font: 13px Roboto lt;
+    color: #ff6647;
+    margin: 11px 0px 5px 30px;
+}
+
+#sed_semper{
+    margin-top: 0px;
+}
+
+.article_part{
+    margin: 24px 0px 0px 30px;
+}
+
+.article_parts{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font: 13px Roboto lt;
+    color: #8f8f8f;
+}
+
+#part2{
+    margin-top: 23px;
+}
+
+#part3{
+    margin-top: 22px;
+}
+
+#archives{
+    margin:32px 0 0 30px;
+}
+
+#people_said{
+    width: 630px;
+    margin-top: 81px;
+    margin-left: 200px;
+    height: 335px;
+}
+
+.person{
+    height: 70px;
+    margin-top: 63px;
+}
+
+.person_photo{
+    float: left;
+}
+
+.quote{
+    float: left;
+}
+
+.tralala_said{
+    margin: 5px 0px 18px 30px;
+    font: 14px Oswald;
+    color: #ff6647;
+}
+
+.person_quote{
+    margin:-10px 0px 17px 30px;
+    clear: left;
+    font: italic 13px Roboto lt;
+    color: #8f8f8f;
 }
