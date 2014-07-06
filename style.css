@@ -20,6 +20,7 @@ body {
 }
 
 #container{
+    float: left;
     width: 870px;
     height: 1815px;
     background-color:#fff;
@@ -81,12 +82,24 @@ body {
     width: 640px;
     height: 384px;
 }
-
-#banner a img{
-    width: 640px;
-    height: 384px;
+#sidebar_list{
+    display: list-item;
+    list-style: none;
 }
-
+.left_arrow{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    padding-right: 1px;
+    margin: -32px 0px 0px 585px;
+}
+.right_arrow{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    padding-right: 1px;
+    margin: -32px 0px 0px 608px;
+}
 #menu_social{
     float: left;
     width: 170px;
