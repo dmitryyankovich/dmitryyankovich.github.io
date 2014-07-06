@@ -1,0 +1,119 @@
+body {
+     background-image: url(img/15.png);
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 2140px;
+ }
+
+#triangles{
+    height: 29px;
+    background-image: url(img/triangles_01.png);
+    background-repeat: repeat-x;
+}
+
+#sitename{
+    width: 220px;
+    height: 117px;
+    margin: 41px 0 0 545px;
+    background-image:url(img/logo.png);
+}
+
+#container{
+    width: 870px;
+    height: 1815px;
+    background-color:#fff;
+    margin: 0 0 0 375px;
+}
+
+#john_doe{
+    width: 170px;
+    height: 174px;
+    float: left;
+    background-image: url(img/john_doe.png);
+}
+
+#top_heading{
+    width: 700px;
+    height: 214px;
+    padding-left: 169px;
+}
+
+#roboto{
+    font: normal 14px Roboto Lt;
+    color: #ff6647;
+    padding: 40px 0px 0px 30px;
+}
+
+#praesent p{
+    font: normal 54px Oswald;
+    color: #79828c;
+    padding-top: 4px;
+    padding-left:29px;
+    margin: 0;
+    line-height: 66px;
+}
+
+#social{
+    text-align: right;
+     width: 170px;
+     height: 115px;
+ }
+
+#sitam{
+    font: normal 14px Roboto Lt;
+    color: #ff6647;
+    margin: -2px 0px 7px 22px;
+    /*padding-left: 30px;*/
+    white-space: nowrap;
+}
+
+#username{
+    margin: -7px 0px 0px 89px;
+    font: normal 22px Oswald;
+    color: #ff6647;
+    /*padding-left: 92px;*/
+    white-space: nowrap;
+}
+
+#banner{
+    margin-left: 200px;
+    width: 640px;
+    height: 384px;
+}
+
+#banner a img{
+    width: 640px;
+    height: 384px;
+}
+
+#menu_social{
+    float: left;
+    width: 170px;
+    height: 272px;
+}
+
+#menu{
+    text-align: right;
+    width: 170px;
+    height: 157px;
+}
+
+#menu a {
+    text-shadow: 0px 0px 1px #fff;
+    font: normal 14px Oswald;
+    color: #79828c;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#menu hr {
+    margin-top: 6px;
+    border-bottom: 0px;
+    border-top: 1px solid #e6e6e6;
+}
+
+a img {border: none}
