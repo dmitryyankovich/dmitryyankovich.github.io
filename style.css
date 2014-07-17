@@ -42,6 +42,7 @@ body {
 .john_doe{
     width: 170px;
     height: 174px;
+    margin-bottom: 40px;
     float: left;
     background-image: url(img/john_doe.png);
 }
@@ -52,8 +53,7 @@ body {
 
 .top_heading{
     width: 700px;
-    padding-left: 169px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .grad_footer:before{
@@ -78,14 +78,13 @@ content: url(img/15_03.png);
 .roboto{
     font: normal 14px Roboto Light;
     color: #ff6647;
-    padding: 40px 0px 0px 30px;
+    padding-top: 40px;
 }
 
 .praesent p{
     font: normal 54px Oswald;
     color: #79828c;
     padding-top: 4px;
-    padding-left:29px;
     margin: 0;
     line-height: 66px;
 }
@@ -93,8 +92,7 @@ content: url(img/15_03.png);
 .social{
     text-align: right;
      width: 170px;
-/*     height: 115px;*/ 
-margin-bottom: 30px;
+     margin-bottom: 30px;
  }
 
 .sitam{
@@ -115,22 +113,25 @@ margin-bottom: 30px;
 
 .banner{
     position: relative;
-    margin-left: 200px;
     width: 640px;
-    height: 384px;
+}
+
+.right_container {
+    width: 640px;
+    margin-left: 200px;
 }
 
 .left_arrow{
     width: 22px;
     position: absolute; 
-    bottom: 6px;
+    bottom: 9px;
     right: 33px;
 }
 
 .right_arrow{
     width: 22px;
     position: absolute;
-    bottom: 6px;
+    bottom: 9px;
     right: 10px;
 }
 
@@ -140,6 +141,7 @@ margin-bottom: 30px;
 }
 
 .menu{
+    padding: 0;
     text-align: right;
     width: 170px;
     height: 157px;
@@ -159,12 +161,6 @@ background-color: #fff;
 
 .menu a:hover{
     text-decoration: underline;
-}
-
-.menu hr {
-    margin-top: 6px;
-    border-bottom: 0px;
-    border-top: 1px solid #e6e6e6;
 }
 
 a img {border: none}
@@ -215,8 +211,6 @@ a img {border: none}
 }
 
 .email{
-    font: 14px Roboto Light;
-    color: #fff;
     padding: 16px 0px 0px 20px;
 }
 
@@ -226,7 +220,7 @@ a img {border: none}
 }
 
 .call_me {
-    margin: 25px 0px 15px 55px;
+    margin: 21px 0px 15px 55px;
 }
 
 .call_me p{
@@ -264,7 +258,7 @@ a img {border: none}
 
 .lorem p:last-child{
     padding-bottom: 28px;
-    border-bottom: 2px solid #ff6647;
+    border: none;
 }
 
 .inputs{
@@ -312,7 +306,9 @@ a img {border: none}
 }
 
 .banner_content{
-    margin:33px 0px 0px 200px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top:29px;
 }
 
 .banner_header{
@@ -335,6 +331,10 @@ a img {border: none}
     white-space: nowrap;
 }
 
+.last {
+    margin-bottom: 34px;
+}
+
 .banner_text_first{
     margin-top: 18px;
 }
@@ -346,6 +346,10 @@ a img {border: none}
     font: 14px Oswald;
     color: #fff;
     border: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
     margin-top: 32px;
 }
 
@@ -373,15 +377,15 @@ a img {border: none}
 }
 
 .article{
-    margin: 39px 0px 0px 200px;
+    margin-top: 38px;
     width: 639px;
     height: 428px;
+    overflow: hidden;
 }
 
 .photos{
-    position: relative;
+    position: absolute;
     width: 370px;
-    float: left;
 }
 
 .girl{
@@ -450,21 +454,24 @@ margin-top: 47px;
 }
 
 .article_text{
-    width: 269px;
-    height: 428px;
+    width: 270px;
     float: right;
+    position: absolute;
+    margin-left: 400px;
 }
 
 .article_header{
     font: 22px Oswald;
     color: #79828c;
-    margin: -5px 0px 0px 30px;
+    margin-top: -5px;
+    margin-bottom: 0px;
 }
 
 .article_desc{
     font: 13px Roboto Light;
     color: #ff6647;
-    margin: 11px 0px 5px 30px;
+    margin-top: 11px;
+    margin-bottom: 5px;
 }
 
 .sed_semper{
@@ -472,7 +479,7 @@ margin-top: 47px;
 }
 
 .article_part{
-    margin: 24px 0px 0px 30px;
+    margin-top: 24px;
 }
 
 .article_parts{
@@ -488,6 +495,7 @@ margin-top: 47px;
 
 .part3{
     margin-top: 26px;
+    margin-bottom: 39px;
 }
 
 .archives{
@@ -497,7 +505,6 @@ margin-top: 47px;
 .people_said{
     width: 630px;
     margin-top: 81px;
-    margin-left: 200px;
     margin-bottom: 47px;
     height: 335px;
 }
@@ -564,4 +571,62 @@ margin-top: 47px;
     background-image: url(img/15_05.png);
     background-repeat: round;
     height: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+.left_container{
+    width: 170px;
+}
+
+.inputs ::-webkit-input-placeholder {
+    color: #ffa694;
+}
+
+.inputs :-moz-placeholder {
+    color: #ffa694;
+}
+
+.inputs ::-moz-placeholder {
+    color: #ffa694;
+}
+
+.inputs :-ms-input-placeholder {
+    color: #ffa694;
+}
+.menu li {
+    list-style: none;
+    margin-bottom: 11px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.menu :last-child{
+    border: none;
+}
+
+.email a {
+    font: 14px Roboto Light;
+    color: #fff;
+    text-decoration: none;
+}
+
+.call_me a {
+    font: 14px Roboto Light;
+    color: #fff;
+    text-decoration: none;
 }
